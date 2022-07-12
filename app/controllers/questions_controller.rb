@@ -5,6 +5,7 @@ class QuestionsController < ApplicationController
   # ans_else = "I don't care, get dressed and go to work!"
 
   def ask
+    
   end
 
   def answer
