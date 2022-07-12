@@ -13,3 +13,84 @@
  *= require_tree .
  *= require_self
  */
+ a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  background-color: #f4f9f9;
+  padding: 6px 16px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 grey;
+  border: solid lightgrey 1px;
+}
+a:hover {
+  color: white;
+  background: black;
+}
+h3 {
+  color: grey;
+  font-weight:light;
+}
+.ask {
+  color:lightgray;
+}
+form {
+  padding-bottom: 40px;
+}
+.conv {
+  color: #AD8B73;
+}
+.answer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  box-shadow: 0 1px 1px 0 lightgrey;
+  border-radius: 2px;
+  color: black;
+  /* background-color: #F4F9F9; */
+  background-color: #F7ECDE;
+}
+.quest{
+  color: black;
+  background-color: #FBF8F1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+  margin-left: 24px;
+  margin-right: 24px;
+  box-shadow: 0 1px 1px 0 lightgrey;
+  border-radius: 2px;
+}
+h4{
+  font-size: 12px;
+  color: lightgrey;
+  margin-bottom: 8px;
+}
+body {
+  text-align: center;
+  background-color: #F1F1F1;
+  background-image: url('app/assets/images/jess-bailey-q10VITrVYUM-unsplash.jpg');
+}
+#chat {
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 grey;
+  padding-bottom: 0;
+  margin: 32px 40px;
+  font-family: monospace;
+  width: auto;
+  height: 300px;
+  background-color: white;
+}
+/* html {
+  background-image: url("https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText");
+  background-position: center;
+  object-fit: cover;
+} */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

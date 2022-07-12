@@ -1,29 +1,12 @@
-<style>
-.conv {
-  color: blue;
-}
-.answer {
-  color: black;
-  background-color: lightyellow;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-.quest{
-  color: black;
-  background-color: #F4F9F9;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-h4{
-  font-size: 12px;
-  color: lightgrey;
-}
-</style>
+<div class="container">
+  <div id="chat">
 
-<h2 class="conv"><em>Conversation:</em></h2>
+    <h2 class="conv">Conversation:</h2>
+    <h4> >_ You</h4>
+    <h3 class="quest"> ' - <%= @question %>'</h3>
+    <h4>>_ Coach</h4>
+    <h3 class="answer"> ' - <%= @answer %>'</h3>
 
-
-<h3 class="quest"> ' - <%= @question %>'</h3>
-<h4> > You</h4>
-<h3 class="answer"> ' - <%= @answer %>'</h3>
-<h4>> Coach</h4>
+  </div>
+</div>
+<%= link_to "Back", ask_path %>
